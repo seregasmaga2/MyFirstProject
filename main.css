@@ -17,11 +17,18 @@
     top: 23px;
     padding: 25px 0;
 }
+.navigation {
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
+    transition: 0.5s;
+}
+a:hover {
+    color: greenyellow;
 }
 .firstref{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -31,7 +38,7 @@ a {
 }
 
 .secondref{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -41,7 +48,7 @@ a {
 }
 
 .thirdref{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -51,7 +58,7 @@ a {
 }
 
 .fourthref{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -60,7 +67,7 @@ a {
     margin-left: 95px;
 }
 .loginref{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -76,7 +83,7 @@ a {
 }
 
 h1{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 85px;
@@ -95,7 +102,7 @@ h1{
     float: right;
 }
 .text1{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -106,8 +113,8 @@ h1{
     margin: 60px 0 200px 60px;
 }
 .second-section{
-    background-color: #fff;
     width: 100%;
+    margin-top: -80px;
 }
 .carddiv{
     max-width: 1200px;
@@ -118,14 +125,18 @@ h1{
     border-radius: 4px;
     display: inline-block;
     width: 506px;
-    margin: -80px 41px 0;
+    margin: 0 41px;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.2);
 }
 .cardimg{
     float: left;
     padding: 45px 0 47px 30px;
 }
 .cardhead{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 37px;
@@ -134,7 +145,7 @@ h1{
     padding: 49px 0 0 177px;
 }
 .cardtext{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -144,7 +155,7 @@ h1{
     width: 182px;
 }
 .secheadsup {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -154,7 +165,8 @@ h1{
     margin-top: 174px;
 }
 .sechead{
-    font-family: 'Roboto';
+    margin-bottom: 140px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -164,16 +176,17 @@ h1{
 }
 .container2 {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     display: block;
 }
 .text{
     display: inline-block;
+    vertical-align: middle;
     width: 500px;
-    margin: 0 70px 80px;
+    margin: 0 70px;
 }
 .mainheadsup{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -184,7 +197,7 @@ h1{
     margin-bottom: 10px;
 }
 .mainhead{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -194,7 +207,7 @@ h1{
     width: 500px;
 }
 .maintext{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -205,7 +218,11 @@ h1{
 }
 .mainimg{
     display: inline-block;
-    margin-top: 100px;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+.mainimg:hover {
+    transform: rotate(360deg);
 }
 .section4{
     background: #8BC441;
@@ -226,7 +243,7 @@ h1{
     width: 600px;
 }
 .head5{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 55px;
@@ -237,7 +254,7 @@ h1{
     margin-bottom: 57px;
 }
 .block{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -258,11 +275,11 @@ h1{
     margin-top: 120px;
     vertical-align: top;
 }
-.divvet{
-    
+.picture {
+    transform: translateY(30px);
 }
 .footerp{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -273,7 +290,7 @@ h1{
     margin-bottom: 20px;
 }
 .footera{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -283,7 +300,7 @@ h1{
 
 }
 .footertext{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -292,7 +309,7 @@ h1{
     margin-bottom: 29px;
 }
 .lastdiv{
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
